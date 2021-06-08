@@ -11,8 +11,8 @@ public class Main {
     private static final String FORECAST_PERIOD = "5day";
 
     private static final String SAINT_PETERBUGG_KEY = "295212_PC";
-    private static final String API_KEY = System.getenv("NBu5nYfaJpu0mHRtPHM9tKt0pgl7X7rq");
-    public static void main(String[] args) {
+    private static final String API_KEY = "NBu5nYfaJpu0mHRtPHM9tKt0pgl7X7rq";
+    public static void main(String[] args) throws IOException {
         OkHttpClient client = new OkHttpClient ();
 
         HttpUrl url = new HttpUrl.Builder ()
